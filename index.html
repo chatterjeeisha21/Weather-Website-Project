@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="icon" type="image/jpg" href="icon1.jpg">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+           <ul id="navbar">
+            <li><div id="logo"><img src="icon1.jpg" height="50px" width="50px">WeatherLens</div></li>
+            <li id="list2">
+                <div><a href="hourly.html">Hourly</a></div>
+                <div><a href="daily.html">Daily</a></div>
+                <div><a href="AirQuality.html">Air Quality</a></div>
+                <div><form><input type ="search" id = "search" placeholder="Enter city name"></form></div>
+            </li>
+           </ul>
+        </nav>
+    </header>
+    <h1><center>Welcome To WeatherLens 👋 !!!</center></h1>
+    <main id="main">
+        <div id="one" class="griditems">
+            <img src="">
+            <p>Date time</p>
+            <p>temperature</p>
+            <p>feels like</p>
+            <p>sunset,sunrise</p>
+        </div>
+        <div id="two" class="griditems">
+            <p>humidity</p>
+            <p>wind flow</p>
+            <p>cloud</p>
+            <p>air quality</p>
+            <p>rain</p>
+        </div>
+        <div id="three" class="griditems">
+            <p>hourly temperature graph</p>
+        </div>
+        <div id="four" class="griditems">
+            <p>tommrow</p>
+        </div>
+        <div id="five" class="griditems">
+            <p>next 10 days</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
